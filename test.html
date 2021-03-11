@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./log.js"></script>
+  <style>
+    #app {
+      color: red;
+      font-size: 15px;
+    }
+
+    .mid {
+      color: burlywood;
+      font-size: 30px;
+    }
+  </style>
+  <style>
+    .main {
+      color: blue;
+      font-size: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    console.log('%capp%cmid', 'color: red;font-size: 15px;', 'color: burlywood;font-size: 30px;')
+    log('%capp%cmid', '#app', '.mid')
+    log('%capp', '#app', '.mid')
+    log('%capp', '#app', '%css.mid')
+    console.log('%capp', 'color: red;font-size: 15px;', 'color: burlywood;font-size: 30px;')
+    log('%cmain%capp', '.main #app')
+  </script>
+</body>
+
+</html>
