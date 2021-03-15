@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="./log.js"></script>
-  <style>
+  <style title="log">
     #app {
       color: red;
       font-size: 15px;
@@ -28,6 +28,7 @@
 
 <body>
   <script>
+    var log = Logstyle(false)
     console.log('%capp%cmid', 'color: red;font-size: 15px;', 'color: burlywood;font-size: 30px;')
     log('%capp%cmid', '#app', '.mid')
     log('%capp', '#app', '.mid')
