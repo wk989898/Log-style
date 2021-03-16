@@ -3,7 +3,7 @@ use css to make `console.log` colourful
 
 ## Use
 ``` html
-<style title="log"> //if logTitle is true. It applies only to this tag
+<style title="log"> /* if logTitle is true. It applies only to this tag */
     #app{
       color: red;
       font-size: 15px;
